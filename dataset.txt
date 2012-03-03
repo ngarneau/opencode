@@ -1,0 +1,219 @@
+set Salons[1][name] = 'Salon Laval';
+set Salons[1][id] = '1';
+set Salons[1][attendants] = '54';
+set Salons[1][year] = 2010;
+
+set Salons[2][name] = 'Salon Montreal';
+set Salons[2][id] = '2';
+set Salons[2][attendants] = '75';
+set Salons[2][year] = 2010;
+
+set Salons[3][name] = 'Salon Quebec';
+set Salons[3][attendants] = '88';
+set Salons[3][id] = '3';
+set Salons[3][year] = 2010;
+
+set Salons[4][name] = 'Salon Boisbriand';
+set Salons[4][attendants] = '90';
+set Salons[4][id] = '4';
+set Salons[4][year] = 2010;
+
+set Salons[5][name] = 'Salon Toronto';
+set Salons[5][attendants] = '85';
+set Salons[5][id] = '5';
+set Salons[5][year] = 2010;
+
+set Salons[6][name] = 'Salon Montmagny';
+set Salons[6][attendants] = '79';
+set Salons[6][id] = '6';
+set Salons[6][year] = 2010;
+
+set Salons[7][name] = 'Salon Ottawa';
+set Salons[7][attendants] = '76';
+set Salons[7][id] = '7';
+set Salons[7][year] = 2010;
+
+set Salons[8][name] = 'Salon Trois-riviere';
+set Salons[8][attendants] = '58';
+set Salons[8][id] = '8';
+set Salons[8][year] = 2010;
+
+set Salons[9][name] = 'Salon Drummondville';
+set Salons[9][attendants] = '46';
+set Salons[9][id] = '9';
+set Salons[9][year] = 2010;
+
+set Salons[10][name] = 'Salon Brossard';
+set Salons[10][attendants] = '45';
+set Salons[10][id] = '10';
+set Salons[10][year] = 2010;
+
+set Salons[11][name] = 'Salon ';
+set Salons[11][attendants] = '56';
+set Salons[11][id] = '11';
+set Salons[11][year] = 2011;
+
+set Salons[12][name] = 'Salon Chaudiere-appalache';
+set Salons[12][attendants] = '80';
+set Salons[12][id] = '12';
+set Salons[12][year] = 2011;
+
+set Salons[13][name] = 'Salon Saint-Leonard';
+set Salons[13][attendants] = '79';
+set Salons[13][id] = '13';
+set Salons[13][year] = 2011;
+
+set Salons[14][name] = 'Salon Saint-Sauveur';
+set Salons[14][attendants] = '57';
+set Salons[14][id] = '14';
+set Salons[14][year] = 2011;
+
+set Salons[15][name] = 'Salon Victoria';
+set Salons[15][attendants] = '58';
+set Salons[15][id] = '15';
+set Salons[15][year] = 2011;
+
+set Salons[16][name] = 'Salon Edmonton';
+set Salons[16][attendants] = '23';
+set Salons[16][id] = '16';
+set Salons[16][year] = 2011;
+
+set Salons[17][name] = 'Salon Saskatoon';
+set Salons[17][attendants] = '76';
+set Salons[17][id] = '17';
+set Salons[17][year] = 2011;
+
+set Salons[18][name] = 'Salon Rimouski';
+set Salons[18][attendants] = '64';
+set Salons[18][id] = '18';
+set Salons[18][year] = 2011;
+
+set Salons[19][name] = 'Salon Sainte-Marie';
+set Salons[19][attendants] = '45';
+set Salons[19][id] = '19';
+set Salons[19][year] = 2011;
+
+set Salons[20][name] = 'Salon Thetford mines';
+set Salons[20][attendants] = '34';
+set Salons[20][id] = '20';
+set Salons[20][year] = 2011;
+
+set Commandes[001][salon] = '001';
+set Commandes[001][amount] = '799';
+set Commandes[002][salon] = '001';
+set Commandes[002][amount] = '999';
+set Commandes[003][salon] = '001';
+set Commandes[003][amount] = '699';
+
+set Commandes[004][salon] = '002';
+set Commandes[004][amount] = '799';
+set Commandes[005][salon] = '002';
+set Commandes[005][amount] = '799';
+
+set Commandes[006][salon] = '003';
+set Commandes[006][amount] = '499';
+set Commandes[007][salon] = '003';
+set Commandes[007][amount] = '699';
+set Commandes[008][salon] = '003';
+set Commandes[008][amount] = '799';
+
+set Commandes[009][salon] = '004';
+set Commandes[009][amount] = '999';
+
+set Commandes[010][salon] = '005';
+set Commandes[010][amount] = '799';
+set Commandes[011][salon] = '005';
+set Commandes[011][amount] = '599';
+set Commandes[012][salon] = '005';
+set Commandes[012][amount] = '599';
+set Commandes[013][salon] = '005';
+set Commandes[013][amount] = '399';
+
+set Commandes[014][salon] = '006';
+set Commandes[014][amount] = '799';
+set Commandes[015][salon] = '006';
+set Commandes[015][amount] = '899';
+
+set Commandes[016][salon] = '007';
+set Commandes[016][amount] = '599';
+set Commandes[017][salon] = '007';
+set Commandes[017][amount] = '499';
+
+set Commandes[018][salon] = '008';
+set Commandes[018][amount] = '799';
+
+set Commandes[019][salon] = '009';
+set Commandes[019][amount] = '599';
+set Commandes[020][salon] = '009';
+set Commandes[020][amount] = '599';
+
+set Commandes[021][salon] = '010';
+set Commandes[021][amount] = '799';
+set Commandes[022][salon] = '010';
+set Commandes[022][amount] = '799';
+set Commandes[023][salon] = '010';
+set Commandes[023][amount] = '399';
+
+set Commandes[024][salon] = '011';
+set Commandes[024][amount] = '899';
+set Commandes[025][salon] = '011';
+set Commandes[025][amount] = '899';
+
+set Commandes[026][salon] = '012';
+set Commandes[026][amount] = '599';
+set Commandes[027][salon] = '012';
+set Commandes[027][amount] = '499';
+set Commandes[050][salon] = '012';
+set Commandes[050][amount] = '199';
+
+set Commandes[028][salon] = '013';
+set Commandes[028][amount] = '399';
+set Commandes[049][salon] = '013';
+set Commandes[049][amount] = '299';
+
+set Commandes[029][salon] = '014';
+set Commandes[029][amount] = '799';
+set Commandes[030][salon] = '014';
+set Commandes[030][amount] = '399';
+set Commandes[031][salon] = '014';
+set Commandes[031][amount] = '399';
+set Commandes[032][salon] = '014';
+set Commandes[032][amount] = '799';
+
+set Commandes[033][salon] = '015';
+set Commandes[033][amount] = '1099';
+
+set Commandes[034][salon] = '016';
+set Commandes[034][amount] = '799';
+set Commandes[035][salon] = '016';
+set Commandes[035][amount] = '299';
+
+set Commandes[036][salon] = '017';
+set Commandes[036][amount] = '899';
+set Commandes[037][salon] = '017';
+set Commandes[037][amount] = '899';
+
+set Commandes[038][salon] = '018';
+set Commandes[038][amount] = '299';
+set Commandes[039][salon] = '018';
+set Commandes[039][amount] = '299';
+set Commandes[040][salon] = '018';
+set Commandes[040][amount] = '599';
+set Commandes[041][salon] = '018';
+set Commandes[041][amount] = '699';
+
+set Commandes[042][salon] = '019';
+set Commandes[042][amount] = '799';
+set Commandes[043][salon] = '019';
+set Commandes[043][amount] = '799';
+set Commandes[044][salon] = '019';
+set Commandes[044][amount] = '199';
+
+set Commandes[045][salon] = '020';
+set Commandes[045][amount] = '499';
+set Commandes[046][salon] = '020';
+set Commandes[046][amount] = '499';
+set Commandes[047][salon] = '020';
+set Commandes[047][amount] = '299';
+set Commandes[048][salon] = '020';
+set Commandes[048][amount] = '399';
