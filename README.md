@@ -1,17 +1,17 @@
 # Big data
 
 This is just a small introduction to big data and 3 useful tools really cool to work with; [Cassandra][http://cassandra.apache.org/], [Hadoop][http://hadoop.apache.org/] and [Pig][http://pig.apache.org/].
-Of course you'll need to install these three softwares on you machine so here's how you can do it.
+Of course you'll need to install these three softwares on your machine so here's how you can do it.
 
 
-# Install Hadoop
+## Install Hadoop
 First download [Hadoop][http://www.apache.org/dyn/closer.cgi/hadoop/common/] and follow these [instructions][http://hadoop.apache.org/common/docs/stable/single_node_setup.html] for the installation process it is pretty straigthforward.
 
 
-# Install Cassandra & Pig
+## Install Cassandra & Pig
 
 Install Cassandra & Pig altogether is a little touchy.
-I suggest you download the source, so you will have the Cassandra-pig interpreter installed:
+I suggest you download the source of Cassandra, so you will have the Cassandra-pig interpreter installed:
 [http://www.apache.org/dyn/closer.cgi?path=/cassandra/1.0.8/apache-cassandra-1.0.8-src.tar.gz]
 
 Then you got to build Cassandra, by going into the folder you just downloaded and run
@@ -42,11 +42,11 @@ Now you will be able to run Pig with the Cassandra interpreter;
 	cd $CASSANDRA_HOME/contrib/pig
 	bin/pig_cassandra -x local
 
-Please refer to the [profile][.profile] file in the repo for a complete list of PATHS to set.
+Please refer to the .profile file in the repo for a complete list of PATHS to set.
 
 
-# Tutorial
-The tutorial includes a little fake dataset and a Pig Latin script. You can fill up a Cassandra Keyspace by running the dataset file within the Cassandra-cli, on a valid Keyspace, and these column-families set;
+## Tutorial
+The tutorial includes a little fake dataset and a Pig Latin script. You can fill up a Cassandra Keyspace by running the dataset file within the Cassandra-cli, on a valid Keyspace. Set these column-families just before doing so;
 
 	create column family Salons with comparator=UTF8Type and default_validation_class=UTF8Type and key_validation_class=UTF8Type;
 	create column family Commandes with comparator=UTF8Type and default_validation_class=UTF8Type and key_validation_class=UTF8Type;
@@ -58,6 +58,6 @@ This will help our guys at the marketing to decide if we filter people attending
 So you can run the script by running
 
 	cd $CASSANDRA_HOME/contrib/pig
-	bin/pig_cassandra salon.pig
+	bin/pig_cassandra salons.pig
 
 This doesn't show much of what's going on so I suggest you go check the code of salon.pig to get a clear view of what's under the hood :).
